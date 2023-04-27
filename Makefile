@@ -1,12 +1,9 @@
-CFLAGS = -Wall
-
 .PHONY: all
 all: build run clean
 
 .PHONY: build
 build:
-	@read -p "Enter Exercise Name:" dir; \
-	cc ./$$dir/*.c \
+	cc ./$(exercise)/*.c
 
 .PHONY: run
 run:

@@ -1,8 +1,14 @@
 # Solutions for C Programming 2nd Edition
 
-I am using `clang` as the compiler. I am folowiing the default C standar that
+I am using `clang` as the compiler. I am folowiing the default C standard that
 `clang` uses, i.e. **gnu17** (ISO C 2017 with GNU extensions)
 
-To use the make
+To use the make to execute exercises
 
-[![asciicast](https://asciinema.org/a/581012.svg)](https://asciinema.org/a/581012)
+```
+$ make exercise=1_1
+cc ./1_1/*.c
+./a.out
+Hello, world
+rm a.out
+```
