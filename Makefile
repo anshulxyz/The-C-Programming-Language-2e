@@ -1,9 +1,13 @@
 .PHONY: all
-all: build run clean
+all: format build run clean
+
+.PHONY: format
+format:
+	clang-format --style=file -i ./$(exercise)/* 
 
 .PHONY: build
 build:
-	cc ./$(exercise)/*.c
+	cc ./$(exercise)/*
 
 .PHONY: run
 run:

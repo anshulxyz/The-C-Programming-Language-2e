@@ -12,3 +12,5 @@ cc ./1_1/*.c
 Hello, world
 rm a.out
 ```
+
+I use `clang-format` as the formatter. Refer the `Makefile` for more details on how I use it.
