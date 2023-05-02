@@ -1,4 +1,5 @@
-# Solutions for C Programming 2nd Edition
+My Solutions for the exercises in "The C Programming Language. 2nd Edition by Brian Kernighan and Dennis Ritchie"
+
 
 I am using `clang` as the compiler. I am folowiing the default C standard that
 `clang` uses, i.e. **gnu17** (ISO C 2017 with GNU extensions)
